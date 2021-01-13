@@ -1,6 +1,5 @@
 (function ($) {
     'use strict';
-
     $(document).on('ready', function () {
         // -----------------------------
         //  Screenshot Slider
@@ -31,13 +30,13 @@
                     }
                 }
             ]
-         });
+        });
         // -----------------------------
         //  Count Down JS
         // -----------------------------
         $('.timer').syotimer({
-            year: 2017,
-            month: 12,
+            year: 2021,
+            month: 2,
             day: 9,
             hour: 20,
             minute: 30
@@ -46,8 +45,8 @@
         // To Top Init
         // -----------------------------
         $('.to-top').click(function() {
-          $('html, body').animate({ scrollTop: 0 }, 'slow');
-          return false;
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+            return false;
         });
         
         // -----------------------------
@@ -67,7 +66,6 @@
             midClick: true,
             fixedContentPos: false,
             fixedBgPos: true
-
         });
         // -----------------------------
         // Mixitup
@@ -78,5 +76,4 @@
             mixer = mixitup(containerEl);
         }
     });
-
 })(jQuery);
